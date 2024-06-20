@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.cta1 {
+    padding: 10px 20px;
+    background-color: rgb(10, 247, 81);
+    color: #0a0202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+header {
+    background-color: rgb(190, 237, 243); 
+    color: black;
+    padding: 20px 0;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    margin-left: 1rem;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-items li{
+    margin-right: auto;
+}
+
+nav a {
+    color: black(14, 11, 11);
+    text-decoration: none;
+
+}
+
+.intro {
+    text-align: center;
+}
+
+.profile-image {
+    text-align: center;
+    margin: 40px;
+    float: right;
+}
+
+.profile-image img {
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.about-me {
+    text-align: left;
+    width: 100%;
+}
+
+.cta2 {
+    padding: 10px 20px;
+    background-color: rgb(10, 247, 81);
+    color: #0a0202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill {
+    margin: 10px;
+    text-align: center;
+}
+
+.skill img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.services {
+    padding: 40px 0;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-card {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.service-card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.call-to-action {
+    background-color: rgb(190, 237, 243);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.social {
+    background-color: white; 
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.social-media li {
+    display: inline;
+    margin: 100px;
+}
+
+.social-media img {
+    width: 35px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgb(190, 237, 243);
+}
+
+footer p {
+    margin: 0;
+}
