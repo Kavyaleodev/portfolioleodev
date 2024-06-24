@@ -30,6 +30,10 @@ p {
     margin-right: auto;
 }
 
+.cta1:hover {
+    background-color: red;
+}
+
 header {
     background-color: rgb(190, 237, 243);
     color: black;
@@ -55,8 +59,8 @@ nav {
 .nav-items {
     display: flex;
     margin-left: auto;
-    gap: 10px;
-    width: 50%;
+    gap: 15px;
+    width: auto;
     list-style: none;
     align-items: center;
 }
@@ -107,6 +111,10 @@ nav a {
     cursor: pointer;
 }
 
+.cta2:hover {
+    background-color: red;
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -123,17 +131,17 @@ nav a {
     margin-bottom: 5px;
 }
 
-.services {
+.projects {
     padding: 40px 0;
 }
 
-.service-cards {
+.project-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.service-card {
+.project-card {
     background-color: #f0f0f0;
     padding: 20px;
     margin: 10px;
@@ -142,7 +150,7 @@ nav a {
     width: 200px;
 }
 
-.service-card img {
+.project-card img {
     width: 50px;
     margin-bottom: 10px;
 }
@@ -157,7 +165,6 @@ nav a {
 .social {
     background-color: white;
     color: black;
-    padding: 20px 0;
     text-align: center;
 }
 
@@ -166,6 +173,7 @@ nav a {
     margin: 0;
     padding: 0;
     display: inline;
+    align-items: center;
 }
 
 .social-media li {
@@ -208,21 +216,21 @@ footer p {
         text-align: center;
     }
 
-    .service-cards {
+    .project-cards {
         flex-direction: column;
         align-items: center;
     }
 
-    .service-card {
+    .project-card {
         width: 90%;
     }
 }
 
 @media (max-width: 480px) {
     .nav-items {
-        gap: 5px;
+        gap: 15px;
     }
-
+    
     .cta1, .cta2 {
         width: 100%;
         margin: 10px 0;
@@ -238,6 +246,6 @@ footer p {
     }
 
     .social-media li {
-        margin: 20px;
+        margin: 10px;
     }
 }
