@@ -56,7 +56,7 @@ nav {
 .logo img {
     width: 45px;
     height: 45px;
-    margin-left: 1rem;
+    margin-left: 5px;
 }
 
 .nav-items {
@@ -259,11 +259,11 @@ nav .fa {
     }
     .nav-items {
         position: absolute;
-        background: rosybrown;
+        background: rgb(190, 237, 243);
         height: 50vh;
-        width: 150px;
+        width: 200px;
         top: 0;
-        right: -200px;
+        right: -150px;
         text-align: left;
         z-index: 2;
         transition: 1s;
